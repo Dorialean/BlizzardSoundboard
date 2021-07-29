@@ -14,5 +14,25 @@ namespace BlizzardSoundboard
     {
       InitializeComponent();
     }
+
+    private async void ButtonClickedSC(object sender, EventArgs e)
+    {
+      await Navigation.PushAsync(new Starcraft_2.SC2Sounds());
+    }
+
+    private async void ButtonClickedWC(object sender, EventArgs e)
+    {
+      await Navigation.PushAsync(new Warcraft_3.WC3Sounds());
+    }
+
+    private async void ButtonClickedOW(object sender, EventArgs e)
+    {
+      await Navigation.PushAsync(new Overwatch.OverwatchSounds());
+    }
+
+    private async void ButtonClickedHO(object sender, EventArgs e)
+    {
+      await Navigation.PushAsync(new Hots.HotsSounds());
+    }
   }
 }

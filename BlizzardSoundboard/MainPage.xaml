@@ -2,23 +2,62 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BlizzardSoundboard.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <Frame CornerRadius="10" HasShadow="False" BackgroundColor="Bisque">
+                <Label 
+                    Text="Blizzard Games Soundboard" 
+                    TextColor="#006CFF" 
+                    FontSize=" 30" 
+                    HorizontalTextAlignment="Center" 
+                    FontFamily="Lobster" 
+                    FontAttributes="Bold"/>
+            </Frame>
+            <Button 
+                Margin="5,10,5,15"
+                Text="★ Избранное ★" 
+                TextColor="Blue"
+                FontSize="27"
+                BackgroundColor="PapayaWhip"
+                CornerRadius="30"></Button>
+            <Button
+                Clicked="ButtonClickedSC"
+                Text="Starcraft II"
+                TextTransform="Uppercase"
+                TextColor="White"
+                FontSize="50"
+                FontAttributes="Italic"
+                CornerRadius="25"
+                BackgroundColor="CornflowerBlue"
+                HeightRequest="100"/>
+            <Button
+                Clicked="ButtonClickedWC"
+                Text="Warcraft III" 
+                FontSize="50" 
+                CornerRadius="25"
+                FontAttributes="Bold"
+                TextColor="DarkGreen"
+                HeightRequest="100"
+                BackgroundColor="Chocolate" 
+                />
+            <Button
+                Clicked="ButtonClickedOW"
+                Text="Overwatch" 
+                FontSize="50" 
+                CornerRadius="25"
+                TextColor="Black"
+                BackgroundColor="Yellow"
+                HeightRequest="100"/>
+            <Button 
+                Clicked="ButtonClickedHO"
+                Text="Heroes of the storm" 
+                FontSize="35" 
+                CornerRadius="25"
+                TextColor="WhiteSmoke"
+                FontAttributes="Italic, Bold"
+                BackgroundColor="DarkBlue"
+                HeightRequest="100"/>
+        </StackLayout>
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
-
+    </ScrollView>
 </ContentPage>

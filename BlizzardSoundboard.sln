@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlizzardSoundboard.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlizzardSoundboard.iOS", "BlizzardSoundboard.iOS\BlizzardSoundboard.iOS.csproj", "{DE1B5E76-2FFE-411B-81BC-5B9FED3033B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlizzardSoundboard", "BlizzardSoundboard\BlizzardSoundboard.csproj", "{AFA6AA53-7C66-4E19-B86D-0FEF5BED26A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlizzardSoundboard", "BlizzardSoundboard\BlizzardSoundboard.csproj", "{AFA6AA53-7C66-4E19-B86D-0FEF5BED26A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
