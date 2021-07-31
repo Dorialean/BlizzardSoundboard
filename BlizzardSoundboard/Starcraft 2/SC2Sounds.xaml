@@ -32,9 +32,366 @@
                     Source="Icons/Nexus.png" 
                     Grid.Column="2" 
                     Grid.Row="0"/>
-                <Image Source="Icons/Nexus.png" Grid.Column="0" Grid.Row="1"/>
-                <Button Text="Сталкер: Реплика" Grid.Column="1" Grid.Row="1"/>
-                <Button Text="Добавить в избранное" Grid.Column="2" Grid.Row="1"/>
+                <!--Первая кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="1"/>
+                <Button 
+                    x:Name="ZealotQuote1"
+                    Clicked="ZealotQuote1_Clicked"
+                    Text="Зилот: Клинки Правосудия"
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="1"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="1"/>
+                <!--Вторая кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="2"/>
+                <Button 
+                    x:Name="ZealotQuote2"
+                    Clicked="ZealotQuote2_Clicked"
+                    Text="Зилот: Это неизбежно"
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="2"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="2"/>
+                <!--3я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="3"/>
+                <Button 
+                    x:Name="ZealotQuote3"
+                    Clicked="ZealotQuote3_Clicked"
+                    Text="Зилот: Никто не устоит "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="3"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="3"/>
+                <!--4я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="3"/>
+                <Button 
+                    x:Name="ZealotQuote4"
+                    Clicked="ZealotQuote4_Clicked"
+                    Text="Зилот: Аруун Даладан "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="3"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="3"/>
+                <!--5я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="4"/>
+                <Button 
+                    x:Name="ZealotQuote5"
+                    Clicked="ZealotQuote5_Clicked"
+                    Text="Зилот: Один вздох, один удар "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="4"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="4"/>
+                <!--6я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="5"/>
+                <Button 
+                    x:Name="ZealotQuote6"
+                    Clicked="ZealotQuote6_Clicked"
+                    Text="Зилот: Наша ярость безгранична "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="5"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="5"/>
+                <!--7я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="6"/>
+                <Button 
+                    x:Name="ZealotQuote7"
+                    Clicked="ZealotQuote7_Clicked"
+                    Text="Зилот: Нам нет равных "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="6"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="6"/>
+                <!--8я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="7"/>
+                <Button 
+                    x:Name="ZealotQuote8"
+                    Clicked="ZealotQuote8_Clicked"
+                    Text="Зилот: Кхала, прими меня "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="7"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="7"/>
+                <!--9я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="8"/>
+                <Button 
+                    x:Name="ZealotQuote9"
+                    Clicked="ZealotQuote9_Clicked"
+                    Text="Зилот: ААА "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="8"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="8"/>
+                <!--10я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="9"/>
+                <Button 
+                    x:Name="ZealotQuote10"
+                    Clicked="ZealotQuote10_Clicked"
+                    Text="Зилот: Я - тамплиер, я - меч истины "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="9"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="9"/>
+                <!--11я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="10"/>
+                <Button 
+                    x:Name="ZealotQuote11"
+                    Clicked="ZealotQuote11_Clicked"
+                    Text="Зилот: Война - кузница воли "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="10"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="10"/>
+                <!--12я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="11"/>
+                <Button 
+                    x:Name="ZealotQuote12"
+                    Clicked="ZealotQuote12_Clicked"
+                    Text="Зилот: Наши враги должны быть истреблены "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="11"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="11"/>
+                <!--13я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="12"/>
+                <Button 
+                    x:Name="ZealotQuote13"
+                    Clicked="ZealotQuote13_Clicked"
+                    Text="Зилот: Победа - вот высшая истина "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="12"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="12"/>
+                <!--14я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="13"/>
+                <Button 
+                    x:Name="ZealotQuote14"
+                    Clicked="ZealotQuote14_Clicked"
+                    Text="Зилот: Страх - удел врага "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="13"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="13"/>
+                <!--15я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="14"/>
+                <Button 
+                    x:Name="ZealotQuote15"
+                    Clicked="ZealotQuote15_Clicked"
+                    Text="Зилот: Не заставляй меня считать до змидлеарда "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="14"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="14"/>
+                <!--16я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="15"/>
+                <Button 
+                    x:Name="ZealotQuote16"
+                    Clicked="ZealotQuote16_Clicked"
+                    Text="Зилот: говорят, что блаженны неведующие , скажи: Это правда?  "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="15"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="15"/>
+                <!--17я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="16"/>
+                <Button 
+                    x:Name="ZealotQuote17"
+                    Clicked="ZealotQuote17_Clicked"
+                    Text="Зилот: какое спокойствие царит в твоём разуме "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="16"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="16"/>
+                <!--18я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="17"/>
+                <Button 
+                    x:Name="ZealotQuote18"
+                    Clicked="ZealotQuote18_Clicked"
+                    Text="Зилот: Жизнь за Айур "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="17"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="17"/>
+                <!--19я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="18"/>
+                <Button 
+                    x:Name="ZealotQuote19"
+                    Clicked="ZealotQuote19_Clicked"
+                    Text="Зилот: Выхожу из медитации "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="18"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="18"/>
+                <!--20я кнопка зилота-->
+                <Image 
+                    Source="Icons/Nexus.png" 
+                    Grid.Column="0" 
+                    Grid.Row="19"/>
+                <Button 
+                    x:Name="ZealotQuote20"
+                    Clicked="ZealotQuote20_Clicked"
+                    Text="Зилот: Настал час расплаты "
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="Blue"
+                    Grid.Column="1" 
+                    Grid.Row="19"/>
+                <Button 
+                    Text="Добавить в избранное" 
+                    Grid.Column="2" 
+                    Grid.Row="19"/>
             </Grid>
         </ScrollView>    
     </ContentPage.Content>
